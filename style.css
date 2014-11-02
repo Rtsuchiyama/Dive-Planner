@@ -1,10 +1,14 @@
-<html>
-<head>
-<style>
 h1 {
     position: absolute;
     left: 625px;
     top: 20px;
+}
+#textbox1{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    width: 200px;
+    height: 400px;
 }
 body { 
     background-image: url('bg.jpg');
@@ -16,14 +20,5 @@ footer {
 	color: red;
     position: absolute;
     left: 450px;
-    bottom: 5px;
+    bottom: 15px;
 }
-</style>
-</head>
-
-<body>
-<h1>Dive Planner</h1>
-</body>
-<footer><b>This is a prototype and should not be used in real world diving scenarios. </b></footer>
-</style>
-</html>

@@ -5,13 +5,15 @@
 </head>
 <body>
 
-<p id="depthTimeTable"></p>
+	
 <br><br>
-<p id="depth35"></p>
+<p id="depth35hi"></p>
 <br><br>
 <p id="depth35length"></p>
+<p id="depth40"></p>
+<p id="depth40length"></p>
+<script type="text/javascript">
 
-<script>
 var a = [10, 9 , 7, 6, 5, 4, 4, 3, 3, 3, 3, 4];
 var b = [19, 16, 13, 11, 9, 8, 7, 6, 6, 5 ,5, 4];
 var c = [25, 22, 17, 14, 12, 10, 9 , 8 , 7, 6, 6, 5];
@@ -116,16 +118,40 @@ function getDepth40() {
   return depth40.toString();
 }
 
-function getDepth50Length() {
-  return depth50.length;
+function getDepth40Length() {
+  return depth40.length;
 }
 
-function getDepth60() {
+function getDepth50() {
   return depth60.toString();
 }
 
-function getDepth70Length() {
+function getDepth50Length() {
   return depth80.length;
+}
+
+function getDepth60() {
+  return depth35.toString();
+}
+
+function getDepth60Length() {
+  return depth35.length;
+}
+
+function getDepth70() {
+  return depth100.toString();
+}
+
+function getDepth70Length() {
+  return depth110.length;
+}
+
+function getDepth80() {
+  return depth35.toString();
+}
+
+function getDepth80Length() {
+  return depth35.length;
 }
 
 function getDepth90() {
@@ -137,11 +163,19 @@ function getDepth90Length() {
 }
 
 function getDepth100() {
-  return depth100.toString();
+  return depth35.toString();
+}
+
+function getDepth100Length() {
+  return depth35.length;
+}
+
+function getDepth110() {
+  return depth35.toString();
 }
 
 function getDepth110Length() {
-  return depth110.length;
+  return depth35.length;
 }
 
 function getDepth120() {
@@ -167,46 +201,16 @@ function getDepth140() {
 function getDepth140Length() {
   return depth35.length;
 }
+//document.getElementById("depthTimeTable").innerHTML = depthTime();
 
-document.getElementById("depthTimeTable").innerHTML = depthTime();
-
-document.getElementById("depth35").innerHTML = getDepth35();
+document.getElementById("depth35hi").innerHTML = getDepth35();
 document.getElementById("depth35length").innerHTML = getDepth35Length();
 
 document.getElementById("depth40").innerHTML = getDepth40();
 document.getElementById("depth40length").innerHTML = getDepth40Length();
 
-document.getElementById("depth50").innerHTML = getDepth50();
-document.getElementById("depth50length").innerHTML = getDepth50Length();
 
-document.getElementById("depth60").innerHTML = getDepth60();
-document.getElementById("depth60length").innerHTML = getDepth60Length();
-
-document.getElementById("depth70").innerHTML = getDepth70();
-document.getElementById("depth70length").innerHTML = getDepth70Length();
-
-document.getElementById("depth80").innerHTML = getDepth80();
-document.getElementById("depth80length").innerHTML = getDepth80Length();
-
-document.getElementById("depth90").innerHTML = getDepth90();
-document.getElementById("depth90length").innerHTML = getDepth90Length();
-
-document.getElementById("depth100").innerHTML = getDepth100();
-document.getElementById("depth100length").innerHTML = getDepth100Length();
-
-document.getElementById("depth110").innerHTML = getDepth110();
-document.getElementById("depth110length").innerHTML = getDepth110Length();
-
-document.getElementById("depth120").innerHTML = getDepth120();
-document.getElementById("depth120length").innerHTML = getDepth120Length();
-
-document.getElementById("depth130").innerHTML = getDepth130();
-document.getElementById("depth130length").innerHTML = getDepth130Length();
-
-document.getElementById("depth140").innerHTML = getDepth140();
-document.getElementById("depth140length").innerHTML = getDepth140Length();
 
 </script>
-
 </body>
 </HTML>
